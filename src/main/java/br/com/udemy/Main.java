@@ -46,7 +46,10 @@ public class Main {
         System.out.println("Employee salary: ");
         Double salary = sc.nextDouble();
 
+        System.out.println("Testing git :)");
+
         Employee employee = new Employee(id, name, salary);
+
         return employee;
     }
     public static Integer Position(ArrayList<Employee> list, int id) {
