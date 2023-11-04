@@ -46,9 +46,12 @@ public class Main {
         System.out.println("Employee salary: ");
         Double salary = sc.nextDouble();
 
-        System.out.println("Testing git :)");
+        sc.nextLine();
 
-        Employee employee = new Employee(id, name, salary);
+        System.out.println("Employee age: ");
+        String age = sc.nextLine();
+
+        Employee employee = new Employee(id, name, salary, age);
 
         return employee;
     }
